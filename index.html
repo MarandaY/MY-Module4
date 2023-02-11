@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4</title>
+
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        #page {
+            text-align: center;
+        }
+
+        #title {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(41, 61, 146);
+        }
+
+        #container {
+            margin: auto;
+            border-radius: 5%;
+            padding: 10px;
+            background-color: white;
+            width: 600px;
+            text-align: center;
+        }
+
+        #picture {
+            margin-bottom: 10px;
+            width: 300px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="page">
+    <h1 id="title">Strings and Conditionals!</h1>
+    <img src="./image/craig.png" id="picture">
+    <div id="container">
+    <p id="intro"></p>
+    <p>Input a young age to see what level of schooling you should be at.</p>
+
+    <input id="age" value="0" />
+    <button onclick="schooling()">Try it</button>
+        <p id="response"></p>
+
+    <p>Random fact!</p>
+    <p id="fact"></p>
+
+    <p>Thanks for checking things out~</p>
+    <p id="sendoff"></p>
+    
+    </div>
+</div>
+
+<script src="./add.js"></script>
+</body>
+</html>
