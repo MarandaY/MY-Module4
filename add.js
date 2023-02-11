@@ -1,3 +1,5 @@
+console.log ("Check the JavaScript!")
+
 //code for the introduction on the page, only a specific part is displayed.
 
 let text = "This is a website to play around with JavaScript. Welcome! I've included a few features to test out various things.";
